@@ -1,10 +1,12 @@
 .btn {
     border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow--4);
     cursor: pointer;
     display: inline-block;
-    font-size: 16px;
+    /* font-size: 16px; */
     font-weight: bolder;
-    padding: 20px 40px;
+    padding: 10px 23px;
+    text-align: center;
     text-transform: uppercase;
     transition: var(--transition);
     min-width: 200px;

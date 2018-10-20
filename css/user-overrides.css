@@ -1,0 +1,6 @@
+/* NAV */
+.btn--secondary {
+    background: var(--secondary);
+    border: none;
+    color: var(--light);
+}
