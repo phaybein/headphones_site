@@ -1,9 +1,25 @@
 :root {
-    --primary: #4E45C7;
-    --secondary: #F6A240;
-    --light: #f9f9fb;
-    --dark: #383651;
+    /**
+    * COLORS
+    * Blue 4C44C1
+    * Lightblue 6066F2
+    * Orange FEA83B
+    * Black 2B293D
+    * White F9F9FB
+    * Gray BBC0C8
+    * Purple B286F8
+    * Light Purple E6CDF9
+    */
+    --primary: #4C44C1;
+    --secondary: #FEA83B;
+    --light: #F9F9FB;
+    --dark: #2B293D;
     --gray: #BBC0C8;
+
+    --lightblue: #6066F2;
+    --purple: #B286F8;
+    --lightpurple: #E6CDF9;
+
 
     --border-radius: 3px;
     --box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
@@ -15,6 +31,7 @@
         0 4px 15px 0 rgba(0, 0, 0, .15);
     --box-shadow--4: 0 8px 17px 0 rgba(0, 0, 0, .2),
         0 6px 20px 0 rgba(0, 0, 0, .19);
+    --box-shadow--inset: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     --transition: 400ms ease-in-out;
     --text-shadow: 0 3px 6px rgba(0, 0, 0, 0.22);
 }
