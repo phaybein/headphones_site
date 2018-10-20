@@ -1,0 +1,73 @@
+.btn {
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    transition: var(--transition);
+    min-width: 200px;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn--primary {
+    background: var(--primary);
+    color: var(--light);
+}
+
+.btn--primary:hover {
+    color: var(--light);
+    background: var(--secondary);
+    box-shadow: var(--box-shadow--3);
+}
+
+.btn--secondary {
+    background: var(--light);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    text-align: center;
+}
+
+.btn--secondary:hover {
+    color: var(--secondary);
+    border: 2px solid var(--primary);
+    box-shadow: var(--box-shadow--3);
+}
+
+.btn--third {
+    color: var(--primary);
+    opacity: 0.5;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.btn--third:hover {
+    opacity: 1;
+}
+
+.btn--light {
+    background: var(--light);
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--light:hover {
+    opacity: 0.8;
+    box-shadow: var(--box-shadow--3);
+}
+
+.btn--dark {
+    background: var(--secondary);
+    box-shadow: var(--box-shadow--3);
+}
+
+.btn--rounded {
+    border-radius: 50px;
+}

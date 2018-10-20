@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Social Media</title>
+	<link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body style="background:#fff;">
+
+	<style>
+		@media screen and (min-width: 300px) {
+			  #mobile-nav-1,
+			  .nav-1__brand {
+			  display: none;
+			  }
+			  label {
+				  cursor: pointer;
+				  font-size: 26px;
+				  margin-bottom: 0;
+			  }
+			  .nav-1__menu {
+				  text-align: right;
+				  width: 100%;
+				  max-height: 0;
+				  margin-bottom: 0;
+				  overflow: hidden;
+				  transition: 400ms ease-in-out;
+			  }
+			  .nav-1__menu li {
+				  border-bottom: 1px solid #eaeaeb;
+				  margin: 0;
+				  list-style:  none;
+				  padding: 1rem 0;
+				  
+			  }
+			  #mobile-nav-1:checked + .nav-1__menu {
+				  max-height: 300px;
+			  }
+			
+		  }
+  
+		  @media screen and (min-width: 700px) {
+  
+		  label {
+			   display: none;
+		  }
+		  .nav-1__wrapper {
+			  display: flex;
+			  align-items: center;
+		  }
+		  .nav-1__brand {
+			  display: initial;
+			  font-size: 26px;
+			  font-weight: 700;
+			  margin-right: auto;
+		  }
+  
+			  .nav-1__menu {
+				  /* display: block; */
+				  margin-bottom: 0;
+				  /* width: initial; */
+				  max-height: 300px;
+			  }
+			  .nav-1__menu li {
+				  padding: 0 0.5rem;
+				  
+			  }
+			  .nav-1__menu > a {
+				  display: inline-block;
+				  padding: 0 1rem;
+			  }
+		  
+		  }
+  
+		  </style>
+
+	<nav class="nav-1">
+
+		<div class="nav-1__wrapper container">
+
+			<h1 class="nav-1__brand">LOGO.</h1>
+
+			<label for="mobile-nav-1">&#9776;</label>
+
+			<input type="checkbox" id="mobile-nav-1">
+
+			<ul class="nav-1__menu">
+
+				<a href="#!">
+					<li>Home</li>
+				</a>
+
+				<a href="#!">
+					<li>About</li>
+				</a>
+
+				<a href="#!">
+					<li>Services</li>
+				</a>
+
+				<a href="#!">
+					<li>Contact</li>
+				</a>
+
+				<a href="#!">
+					<li>Sign In</li>
+				</a>
+
+			</ul>
+
+		</div>
+
+	</nav>
+
+
+	<div class="container">
+		<h1 style="padding:1rem 0 64px 0;">The Style Guide</h1>
+		<p style="text-transform:uppercase; margin-bottom: 19.5px;">typography</p>
+		<hr style="margin-bottom:43.5px;">
+		<section style="padding:0;">
+			<div class="two-column container" style="padding:0;grid-gap:20px;">
+				<div class="left-column">
+					<h1>This is a headline</h1>
+					<hr style="margin-bottom:10px;">
+					<small>H1 - Titles are title case</small>
+
+					<h2 style="margin-top:20.5px;">This is a headline</h2>
+					<hr style="margin-bottom:10px;">
+					<small>H2</small>
+
+					<h3 style="margin-top:20.5px;">This is a headline</h3>
+					<hr style="margin-bottom:10px;">
+					<small>H3</small>
+
+					<h4 style="margin-top:20.5px;">This is a headline</h4>
+					<hr style="margin-bottom:10px;">
+					<small style="display:block; margin-bottom:10px;">H4</small>
+					<small>All headlines are Title Case</small>
+				</div>
+				<div class="right-column">
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, consequuntur quo ipsum
+						itaque
+						aperiam fugit iusto sit laudantium voluptatum, culpa explicabo earum a in doloremque, quos
+						repudiandae perspiciatis est aliquam! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+						Accusantium, consequuntur quo ipsum itaque aperiam fugit iusto sit laudantium voluptatum, culpa
+						explicabo earum a in doloremque, quos repudiandae perspiciatis est aliquam! Lorem ipsum dolor,
+						sit
+						amet consectetur adipisicing elit. Accusantium, consequuntur quo ipsum itaque aperiam fugit
+						iusto
+						sit laudantium voluptatum, culpa explicabo earum a in doloremque, quos repudiandae perspiciatis
+						est
+						aliquam!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ducimus labore doloribus a magnam
+						necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ducimus labore
+						doloribus a magnam necessitatibus!</p>
+					<hr style="margin-bottom:10px;">
+					<small style="margin-bottom:32px; display: block;">P - Paragraphs have a max-width of 65 characters
+						and
+						is based off having text easier to read when there is a lot of
+						content
+						on the page</small>
+
+					<small style="margin-bottom:15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+						ducimus
+						labore doloribus a magnam
+						necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ducimus labore
+						doloribus a magnam necessitatibus!</small>
+					<hr style="margin-bottom:10px;">
+					<small style="text-transform: uppercase;">small-P</small>
+				</div>
+			</div>
+		</section>
+
+		<section style="padding:0;margin-bottom:40.5px;">
+			<p style="text-transform:uppercase; margin-bottom: 19.5px;">global colors</p>
+			<hr style="margin-bottom:19.5px;">
+
+			<div>
+				<style>
+					.color-container {
+						display: inline-block;
+						padding: 0 10px;
+					}
+
+					.colors {
+						height: 150px;
+						width: 150px;
+					}
+				</style>
+				<div class="color-container">
+					<div style="margin-bottom:10.5px;" class="colors bg-primary"></div>
+					<hr style="width:101px;margin:0 0 10px;">
+					<small style="text-transform:uppercase;">primary</small>
+				</div>
+
+				<div class="color-container">
+					<div style="margin-bottom:10.5px; " class="colors bg-secondary"></div>
+					<hr style="width:101px;margin:0 0 10px;">
+					<small style="text-transform:uppercase;">secondary</small>
+				</div>
+				<div class="color-container">
+					<div style="margin-bottom:10.5px; " class="colors bg-light"></div>
+					<hr style="width:101px;margin:0 0 10px;">
+					<small style="text-transform:uppercase;">light</small>
+				</div>
+				<div class="color-container">
+					<div style="margin-bottom:10.5px; " class="colors bg-gray"></div>
+					<hr style="width:101px;margin:0 0 10px;">
+					<small style="text-transform:uppercase;">gray</small>
+				</div>
+				<div class="color-container">
+					<div style="margin-bottom:10.5px; " class="colors bg-dark"></div>
+					<hr style="width:101px;margin:0 0 10px;">
+					<small style="text-transform:uppercase;">dark</small>
+				</div>
+
+			</div>
+		</section>
+
+		<section style="padding:0;margin-bottom:40.5px;">
+			<p style="text-transform:uppercase; margin-bottom: 0;">buttons</p>
+			<small style="margin-bottom:10px;">Buttons are based on primary CTA action, secondary CTA action, and third
+				CTA action. This is to help
+				the user
+				easier find what action is preferred.</small>
+			<hr style="margin-bottom:29.5px;">
+			<div style="display:flex;justify-content:space-between;align-items: center;">
+				<button class="btn btn--primary">CAT Action</button>
+				<button class="btn btn--secondary">secondary button</button>
+				<a href="#!" class="btn btn--third">third action/ text link</a>
+			</div>
+		</section>
+
+		<!-- Avatar -->
+		<section style="padding:0;margin-bottom:40.5px;">
+			<p style="text-transform:uppercase; margin-bottom: 0;">avatars</p>
+			<small style="margin-bottom:10px;">User Avatars for different product sections</small>
+			<hr style="margin-bottom:29.5px;">
+
+			<img src="//placeimg.com/200/200/people" alt="image of user" class="avatar avatar--large">
+			<img src="//placeimg.com/200/200/tech" alt="small image of user" class="avatar avatar--small">
+
+		</section>
+
+
+
+
+
+	</div>
+
+</body>
+
+</html>
