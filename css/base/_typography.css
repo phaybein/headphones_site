@@ -6,6 +6,11 @@ html {
     font-size: 1rem;
 }
 
+body {
+    text-rendering: optimizeLegibility;
+    text-shadow: 0 0 0 #f00, 0 0 1px transparent;
+}
+
 h1,
 h2,
 h3,

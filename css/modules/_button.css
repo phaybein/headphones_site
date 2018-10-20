@@ -7,6 +7,7 @@
     padding: 10px 23px;
     text-align: center;
     text-transform: uppercase;
+    text-shadow: 0 0 0 #f00, 0 0 1px transparent;
     transition: var(--transition);
     min-width: 200px;
 }

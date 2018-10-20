@@ -1,5 +1,4 @@
 .btn--secondary {
-    background: var(--secondary);
     border: none;
-    color: var(--light);
+    color: var(--secondary);
 }
