@@ -1,12 +1,9 @@
 :root {
-    --primary: #08AEEA;
-    --secondary: #2AF598;
-    --light: #f8fbfc;
-    --dark: #294c58;
-    --lighter-gray: #fafafa;
-    --light-gray: #d8d8d8;
-    --gray: #b4b4b4;
-    --dark-gray: #9a9a9a;
+    --primary: #4E45C7;
+    --secondary: #F6A240;
+    --light: #f9f9fb;
+    --dark: #383651;
+    --gray: #BBC0C8;
 
     --border-radius: 3px;
     --box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
