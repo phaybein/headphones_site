@@ -185,6 +185,13 @@ textarea {
 }
 
 /**
+* Remove border when using button element
+*/
+button {
+    border-style: none;
+}
+
+/**
    * Show the overflow in IE.
    * 1. Show the overflow in Edge.
    */

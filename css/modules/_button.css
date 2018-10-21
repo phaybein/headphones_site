@@ -4,7 +4,8 @@
     cursor: pointer;
     display: inline-block;
     font-weight: bolder;
-    padding: 10px 23px;
+    opacity: 1;
+    padding: 15px 45px;
     text-align: center;
     text-transform: uppercase;
     transition: var(--transition);
@@ -21,8 +22,6 @@
 }
 
 .btn--primary:hover {
-    color: var(--light);
-    background: var(--secondary);
     box-shadow: var(--box-shadow--3);
 }
 
@@ -35,11 +34,11 @@
 
 .btn--secondary:hover {
     color: var(--secondary);
-    border: 2px solid var(--primary);
     box-shadow: var(--box-shadow--3);
 }
 
 .btn--third {
+    box-shadow: none;
     color: var(--primary);
     opacity: 0.5;
     padding: 0;
