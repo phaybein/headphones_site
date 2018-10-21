@@ -1,0 +1,48 @@
+.header .two-columns {
+    align-items: center;
+    position: relative;
+}
+
+.header .header__left__title {
+    margin: 0;
+}
+
+.header .header__left__brand {
+    color: #e8e8fd;
+    font-size: 270px;
+    font-weight: 700;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header .header__left__title {
+    margin: 100px 0 25px;
+}
+
+.header .header__left__description {
+    margin-bottom: 38px;
+    min-width: 0;
+}
+
+.header .header__left__cta {
+    position: relative;
+}
+
+.header .header__left__cta i {
+    position: absolute;
+}
+
+.header .header__left__cta input {
+    background: none;
+    border: 0;
+    box-shadow: var(--box-shadow);
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    width: 100%;
+}
+
+.header .header__left__cta .btn {
+    position: absolute;
+}
