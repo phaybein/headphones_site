@@ -21,8 +21,9 @@
 }
 
 .nav {
-    padding-top: 20px;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 38px;
+    padding-top: 20px;
 }
 
 .nav .container {
