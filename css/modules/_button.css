@@ -3,7 +3,7 @@
     box-shadow: var(--box-shadow);
     cursor: pointer;
     display: inline-block;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     opacity: 1;
     padding: 15px 45px;
     text-align: center;
