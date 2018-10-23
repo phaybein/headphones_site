@@ -1,8 +1,14 @@
 .btn {
+    font-weight: initial;
+    text-decoration: none;
     min-width: 0;
 }
 
 .btn--secondary {
     border: none;
     color: var(--secondary);
+}
+
+p {
+    min-width: 0;
 }
