@@ -1,0 +1,64 @@
+.design .design__left {
+    padding: 30px;
+}
+
+.design .design__left h6 {
+    margin-bottom: 30px;
+}
+
+.design .design__left h2 {
+    margin-bottom: 30px;
+}
+
+.design .design__left .checklist {
+    margin-bottom: 23px;
+}
+
+.design .design__left div:nth-child(5) {
+    margin-bottom: 50px;
+}
+
+.design .design__left .btn {}
+
+.design .design__right {
+    position: relative;
+    text-align: center;
+    display: grid;
+    grid-template-areas: "design cord""weight control";
+    grid-template-columns: 1fr 1fr;
+}
+
+.design .design__right .box {
+    border: 1px solid #d0cee1;
+    padding: 40px 0;
+}
+
+.design .design__right .design__box_1 {
+    grid-area: design;
+}
+
+.design .design__right .design__box_2 {
+    grid-area: cord;
+}
+
+.design .design__right .design__box_3 {
+    grid-area: weight;
+}
+
+.design .design__right .design__box_4 {
+    grid-area: control;
+}
+
+.design .design__right .icon__rounded {
+    background: var(--light);
+    display: flex;
+    height: 54px;
+    width: 54px;
+    position: absolute;
+    left: calc(50% - 27px);
+    top: calc(50% - 27px);
+}
+
+.design .design__right .icon__rounded i {
+    margin: auto;
+}
