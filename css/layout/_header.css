@@ -39,8 +39,8 @@
 
 @media screen and (min-width: 768px) {
     .header .header__left__brand {
-        font-size: 270px;
-        top: -50px;
+        font-size: 140px;
+        top: 50px;
     }
 }
 

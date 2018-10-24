@@ -92,8 +92,9 @@
 }
 
 .nav__buttons .btn {
-    text-decoration: none;
+    font-size: 8px;
     padding: 10px 28px;
+    text-decoration: none;
     min-width: 89px;
 }
 
