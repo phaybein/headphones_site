@@ -1,0 +1,7 @@
+.color {}
+
+.color .color-two-columns {}
+
+.color .color-two-columns .color-left img {
+    transform: scaleX(-1);
+}
