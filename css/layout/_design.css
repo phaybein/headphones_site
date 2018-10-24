@@ -1,4 +1,5 @@
 .design {
+    border-bottom-right-radius: 4px;
     box-shadow: var(--box-shadow);
     margin-bottom: 68px;
 }
