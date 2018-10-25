@@ -10,8 +10,7 @@
 }
 
 .color .color-two-columns .color__left img {
-    /* transform: scaleX(-1) rotate(30deg); */
-
+    transform: scaleX(-1);
     max-height: 414px;
     width: auto;
 }
@@ -50,13 +49,14 @@
     border-radius: 4px;
     box-shadow: var(--box-shadow);
     margin: 0 auto;
-    padding: 31px 0 18px;
+    padding: 31px 18px 18px;
     text-align: center;
     max-width: 204px;
 }
 
 .color .color-two-columns .color__right .color__right__description h2 {
     color: var(--primary);
+    font-size: 26px;
     font-weight: 300;
     line-height: 0.9;
     margin: 0 0 26px;
@@ -65,25 +65,22 @@
 
 .color .color-two-columns .color__right .color__right__description .span--1 {
     color: var(--secondary);
-    margin-bottom: 5px;
 }
 
 .color .color-two-columns .color__right .color__right__description .span--2 {
     font-weight: 700;
-    margin-bottom: 5px;
 }
 
 .color .color-two-columns .color__right .color__right__description p {
-    font-size: 8px;
+    font-size: 9px;
     font-weight: 300;
-    letter-spacing: 1.2px;
-    margin-bottom: 22px;
 }
 
 .color .color-two-columns .color__right .color__right__description a.btn--third {
     color: var(--primary);
     font-size: 10px;
     font-weight: 600;
+    margin-bottom: 14px;
 }
 
 .color .color-two-columns .color__right .color__right__description b {
