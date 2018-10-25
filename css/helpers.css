@@ -40,3 +40,7 @@
 .bg-dark {
     background: var(--dark);
 }
+
+.block {
+    display: block;
+}
