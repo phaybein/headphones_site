@@ -9,10 +9,27 @@
     text-align: center;
 }
 
+@media screen and (min-width:768px) {
+    .color .color-two-columns .color__left {
+        margin-bottom: 0;
+    }
+}
+
 .color .color-two-columns .color__left img {
     transform: scaleX(-1);
     max-height: 414px;
     width: auto;
+    position: relative;
+}
+
+@media screen and (min-width:768px) {
+    .color .color-two-columns .color__left img {
+        transform: scaleX(-1) rotate(0.10turn);
+    }
+}
+
+.color .color-two-columns .color__right {
+    position: relative;
 }
 
 .color .color-two-columns .color__right .color__right__swatch {
@@ -48,7 +65,7 @@
 .color .color-two-columns .color__right .color__right__description {
     border-radius: 4px;
     box-shadow: var(--box-shadow);
-    margin: 0 auto;
+    margin: 0 auto 44px;
     padding: 31px 18px 18px;
     text-align: center;
     max-width: 204px;
@@ -91,7 +108,48 @@
     max-width: 26px;
 }
 
+.color .color-two-columns .color__right .color__right__color-slider {
+    background: linear-gradient(130deg, rgba(193, 15, 15, 1) 0%, rgba(184, 172, 25, 1) 21%, rgba(27, 173, 98, 1) 39%, rgba(28, 43, 173, 1) 58%, rgba(173, 28, 109, 1) 77%, rgba(168, 10, 10, 1) 100%);
+    border-radius: 50px;
+    height: 200px;
+    margin: auto;
+    transform: rotate(0.25turn);
+    width: 14px;
+    position: absolute;
+    bottom: -90px;
+    right: 0px;
+    left: 0;
+}
 
+@media screen and (min-width:768px) {
+    .color .color-two-columns .color__right .color__right__color-slider {
+        transform: initial;
+        min-height: 380px;
+        margin: 0;
+        left: initial;
+        position: absolute;
+        top: -22px;
+        bottom: 0;
+        right: 0;
+    }
+}
 
+.color .color-two-columns .color__right .color__right__color-slider .color-slider__picker {
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: var(--box-shadow);
+    min-width: 26px;
+    min-height: 26px;
+    position: relative;
+    top: 40px;
+    right: 6px;
+    display: flex;
+}
 
-.color .color-two-columns .color__right .color__right__color-slider {}
+.color .color-two-columns .color__right .color__right__color-slider .color-slider__picker .picker__inside {
+    background: var(--secondary);
+    border-radius: 50%;
+    min-height: 12px;
+    margin: auto;
+    min-width: 12px;
+}
