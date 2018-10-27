@@ -1,4 +1,6 @@
-.color {}
+.color {
+    margin-bottom: 100px;
+}
 
 .color .color-two-columns {
     align-items: center;
