@@ -1,3 +1,97 @@
 .shopping {
     padding: 63px 0;
 }
+
+.shopping .shopping__header {
+    margin-bottom: 4rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (min-width:768px) {
+    .shopping .shopping__header {
+        justify-content: space-between;
+        margin-bottom: 28px;
+        text-align: left;
+    }
+}
+
+.shopping .shopping__header h2 {
+    color: var(--primary);
+    font-weight: 700;
+    padding: 0 2rem;
+}
+
+@media screen and (min-width:768px) {
+    .shopping .shopping__header h2 {
+        font-size: 41px;
+        font-weight: 700;
+        padding: 0;
+    }
+}
+
+.shopping .shopping__header .media .media__left {
+    background: var(--primary);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 21px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping .shopping__header .media .media__right {
+    background: #fff;
+    border-top: 1px solid var(--gray);
+    border-right: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: var(--gray);
+    cursor: pointer;
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping .shopping__body .price-card:nth-child(2) .price-card__product {
+    background: rgb(189, 155, 32);
+    background: linear-gradient(130deg, rgba(189, 155, 32, 1) 23%, rgba(33, 28, 173, 1) 51%, rgba(168, 10, 64, 1) 77%);
+}
+
+.shopping .shopping__body .price-card:nth-child(3) .price-card__product {
+    background: rgb(189, 79, 32);
+    background: linear-gradient(130deg, rgba(189, 79, 32, 1) 23%, rgba(28, 173, 79, 1) 51%, rgba(10, 148, 168, 1) 77%);
+}
+
+.shopping .shopping__body .price-card:nth-child(2) .price-card__product .product__icon {
+    background: rgb(189, 155, 32);
+    background: linear-gradient(130deg, rgba(189, 155, 32, 1) 23%, rgba(33, 28, 173, 1) 51%, rgba(168, 10, 64, 1) 77%);
+}
+
+.shopping .shopping__body .price-card:nth-child(3) .price-card__product .product__icon {
+    background: rgb(189, 79, 32);
+    background: linear-gradient(130deg, rgba(189, 79, 32, 1) 23%, rgba(28, 173, 79, 1) 51%, rgba(10, 148, 168, 1) 77%);
+}
+
+.shopping .shopping__body .price-card .product .product__icon {
+    box-shadow: var(--box-shadow);
+}
+
+.shopping .shopping__body .price-card .price-card__price {
+    font-weight: 700;
+}
+
+.shopping .shopping__body .price-card:first-child .price-card__price {
+    color: var(--secondary);
+    font-weight: 700;
+}
+
+.shopping .shopping__body .price-card:last-child .price-card__price {
+    color: var(--gray);
+}

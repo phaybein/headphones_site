@@ -1,17 +1,14 @@
 .design {
     border-bottom-right-radius: 4px;
     box-shadow: var(--box-shadow);
-    margin-bottom: 68px;
+    margin-bottom: 7rem;
 }
 
 @media screen and (min-width: 768px) {
-
     .design .two-columns {
         grid-template-columns: 300px 460px;
     }
 }
-
-
 
 .design .design__left {
     background: #6255ed;
@@ -80,7 +77,6 @@
     letter-spacing: 0.5px;
     margin: 0;
 }
-
 
 .design .design__left .btn {
     background: var(--light);
