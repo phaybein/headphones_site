@@ -15,7 +15,7 @@
     }
 }
 
-.blueprint .blueprint__two-columns .blueprint__left img {
+.blueprint .blueprint__two-columns .left img {
     height: auto;
     max-height: 290px;
     width: auto;
@@ -26,28 +26,24 @@
 
 
 
-.blueprint .blueprint__two-columns .blueprint__right h2 {
+.blueprint .blueprint__two-columns .right h2 {
     margin-bottom: 43px;
 }
 
 @media screen and (min-width:768px) {
-    .blueprint .blueprint__two-columns .blueprint__right h2 {
+    .blueprint .blueprint__two-columns .right h2 {
         font-size: 60px;
     }
 }
 
-.blueprint .blueprint__two-columns .blueprint__right .blueprint__right__bluetooth {
+.blueprint .blueprint__two-columns .right .bluetooth {
     margin-bottom: 39px
 }
 
-@media screen and (min-width:768px) {
-    .blueprint .blueprint__two-columns .blueprint__right .blueprint__right__bluetooth {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        align-items: center;
-    }
-}
 
-.blueprint .blueprint__two-columns .blueprint__right .blueprint__right__bluetooth .left .left__circle {
+
+
+.blueprint .blueprint__two-columns .right .bluetooth .bluetooth__left .left__circle {
     margin: auto;
     border: 2px solid #fff;
     border-radius: 50%;
@@ -58,7 +54,7 @@
     align-items: center;
 }
 
-.blueprint .blueprint__two-columns .blueprint__right .blueprint__right__bluetooth .left i {
+.blueprint .blueprint__two-columns .right .bluetooth .bluetooth__left i {
     border: 1px dashed rgba(255, 255, 255, 0.5);
     border-radius: 50%;
     font-size: 50px;
@@ -68,20 +64,20 @@
 }
 
 @media screen and (min-width: 768px) {
-    .blueprint .blueprint__two-columns .blueprint__right .blueprint__right__bluetooth .right {
+    .blueprint .blueprint__two-columns .right .bluetooth .bluetooth__right {
         text-align: left;
     }
 }
 
 
 @media screen and (min-width: 768px) {
-    .blueprint .blueprint__two-columns .blueprint__right .blueprint__right__bluetooth .right h4 {
+    .blueprint .blueprint__two-columns .right .bluetooth .bluetooth__right h4 {
         font-size: 33px;
         margin: 0 0 17px;
     }
 }
 
-.blueprint .blueprint__two-columns .blueprint__right .blueprint__right__bluetooth .right small {
+.blueprint .blueprint__two-columns .right .bluetooth .bluetooth__right small {
     display: block;
     font-size: 10px;
     font-weight: 300;
@@ -89,7 +85,7 @@
     margin: 0;
 }
 
-.blueprint .blueprint__two-columns .blueprint__right .blueprint__right__bluetooth .right .btn {
+.blueprint .blueprint__two-columns .right .bluetooth .bluetooth__right .btn {
     color: var(--secondary);
     display: block;
     font-weight: 600;
@@ -102,29 +98,29 @@
 
 
 
-
+/* 
 
 @media screen and (min-width:768px) {
-    .blueprint .blueprint__two-columns .blueprint__right .blueprint__right__microphone {
+    .blueprint .blueprint__two-columns .right .blueprint__right__microphone {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         align-items: center;
     }
 }
 
 @media screen and (min-width:768px) {
-    .blueprint .blueprint__two-columns .blueprint__right .blueprint__right__microphone .right {
+    .blueprint .blueprint__two-columns .right .blueprint__right__microphone .right {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .blueprint .blueprint__two-columns .blueprint__right .blueprint__right__microphone .right h4 {
+    .blueprint .blueprint__two-columns .right .blueprint__right__microphone .right h4 {
         font-size: 33px;
         margin: 0 0 17px;
     }
 }
 
-.blueprint .blueprint__two-columns .blueprint__right .blueprint__right__microphone .left i {
+.blueprint .blueprint__two-columns .right .blueprint__right__microphone .left i {
     border: 1px dashed rgba(255, 255, 255, 0.5);
     border-radius: 50%;
     font-size: 50px;
@@ -135,7 +131,7 @@
 
 
 
-.blueprint .blueprint__two-columns .blueprint__right .blueprint__right__microphone .left .left__circle {
+.blueprint .blueprint__two-columns .right .blueprint__right__microphone .left .left__circle {
     margin: auto;
     border: 2px solid #fff;
     border-radius: 50%;
@@ -146,7 +142,7 @@
     align-items: center;
 }
 
-.blueprint .blueprint__two-columns .blueprint__right .blueprint__right__microphone .right small {
+.blueprint .blueprint__two-columns .right .blueprint__right__microphone .right small {
     display: block;
     font-size: 10px;
     font-weight: 300;
@@ -154,10 +150,10 @@
     margin: 0;
 }
 
-.blueprint .blueprint__two-columns .blueprint__right .blueprint__right__microphone .right .btn {
+.blueprint .blueprint__two-columns .right .blueprint__right__microphone .right .btn {
     color: #e17ae8;
     display: inline-block;
     font-weight: 600;
     font-size: 8px;
     letter-spacing: 0.5px;
-}
+} */
