@@ -1,0 +1,68 @@
+#hello {
+    background-image: url(../../img/headphone-sketch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+}
+
+#hello .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hello .container h2 {
+    color: var(--primary);
+    margin: 0 0 42px;
+    text-transform: capitalize;
+}
+
+#hello .container .hello__inputs {
+    position: relative;
+}
+
+@media screen and (min-width:768px) {
+    #hello .container .hello__inputs {
+        display: flex;
+        width: 541px;
+    }
+}
+
+#hello .container .hello__inputs input {
+    background: #fff;
+    border: 0;
+    border-radius: 35px;
+    box-shadow: var(--box-shadow);
+    font-size: 12px;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+#hello .container .hello__inputs input:first-child {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    #hello .container .hello__inputs input:first-child {
+        margin-right: 14px;
+        margin-bottom: 0px;
+    }
+}
+
+#hello .container .hello__inputs ::placeholder {
+    color: var(--gray);
+    letter-spacing: 0.3px;
+}
+
+#hello .container .hello__inputs .btn {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    position: absolute;
+    padding: 13px 30px;
+    right: 3px;
+    bottom: 3px;
+}

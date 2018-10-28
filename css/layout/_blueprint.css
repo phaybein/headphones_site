@@ -1,5 +1,6 @@
 .blueprint {
-    background: #5c4ee0;
+    background: rgb(78, 69, 199);
+    background: linear-gradient(130deg, rgba(78, 69, 199, 1) 27%, rgba(106, 92, 250, 1) 84%);
     color: #fff;
     padding: 100px 0;
 }

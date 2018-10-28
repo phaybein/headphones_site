@@ -12,3 +12,7 @@
 p {
     min-width: 0;
 }
+
+section {
+    margin: 60px 0;
+}

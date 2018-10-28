@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif, "Font Awesome 5 Free";
     text-rendering: optimizeLegibility;
     text-shadow: 0 0 0 #f00, 0 0 1px transparent;
 }
