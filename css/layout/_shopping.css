@@ -42,6 +42,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 85px;
+    height: 54px;
 }
 
 .shopping .shopping__header .media .media__right {
@@ -57,6 +59,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 85px;
+    height: 54px;
 }
 
 .shopping .shopping__body .price-card:nth-child(2) .price-card__product {
@@ -87,8 +91,21 @@
     font-weight: 700;
 }
 
+.shopping .shopping__body .price-card:nth-child(2) .price-card__seperator {
+    background: var(--primary);
+}
+
+.shopping .shopping__body .price-card:last-child .price-card__seperator {
+    background: var(--gray);
+}
+
 .shopping .shopping__body .price-card:first-child .price-card__price {
     color: var(--secondary);
+    font-weight: 700;
+}
+
+.shopping .shopping__body .price-card:nth-child(2) .price-card__price {
+    color: var(--primary);
     font-weight: 700;
 }
 

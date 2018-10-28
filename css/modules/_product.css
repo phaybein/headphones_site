@@ -1,5 +1,6 @@
 .product {
     background: linear-gradient(130deg, rgba(193, 15, 15, 1) 0%, rgba(28, 123, 173, 1) 58%, rgba(168, 10, 10, 1) 100%);
+    border-radius: 4px;
     color: #fff;
     height: 200px;
     position: relative;

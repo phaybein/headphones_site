@@ -9,7 +9,7 @@
 .price-card__seperator {
     background: var(--secondary);
     display: block;
-    height: 1px;
+    height: 2px;
     margin: 33px auto 23px;
     width: 96px;
 
